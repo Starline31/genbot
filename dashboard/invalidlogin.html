@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>401 Yetkisiz</title>
+    <link
+      rel="icon"
+      href="https://cdn.discordapp.com/attachments/1180454847649161296/1183057404095639702/image1.jpg"
+      type="image/jpg"
+    />
+    <!--Style-->
+    <link rel="stylesheet" href="/css/accessdecline.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="content">
+        <h1>401</h1>
+        <h4>Oops! Kullanıcı adı ya da parola yanlış!</h4>
+        <p>
+          Lütfen kullanıcı adınızı ve şifrenizi doğrulayın ve tekrar giriş
+          yapmayı deneyin :)
+        </p>
+        <a href="/">Ana Sayfa</a>
+      </div>
+    </div>
+    <!-- Mouse move script -->
+    <script type="text/javascript">
+      const container = document.getElementById("container");
+      window.onmousemove = function (e) {
+        var x = -e.x / 5,
+          y = -e.y / 5;
+        container.style.backgroundPositionX = x + "px";
+        container.style.backgroundPositionY = y + "px";
+      };
+      /* Mobile gyroscope */
+      window.addEventListener("deviceorientation", function (e) {
+        container.style.backgroundPositionX = e.gamma / 3 + "px";
+        container.style.backgroundPositionY = e.beta / 3 + "px";
+      });
+    </script>
+  </body>
+</html>

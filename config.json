@@ -1,0 +1,28 @@
+{
+  "token": "MTE4NzA1MTk4MDI0MjMwOTIyMQ.Gl5bAO.ltVmzEkQAc4Hh3-iXDBAI_nPduUFtgt8Jv0zDs",
+  "username": "axel",
+  "password": "yigit2005",
+  "port": "3000",
+  "clientId": "1187051980242309221",
+  "guildId": "1187054605113233469",
+  "globalDeploy": false,
+  "status": "Fire Account | Generator V2",
+  "website": "https://glitchcode.com.tr",
+  "discord": "https://discord.gg/FBb7PY3abX",
+  "banner": "https://cdn.discordapp.com/attachments/1187054618967031849/1187102512306737212/standard.gif?ex=6595aa5e&is=6583355e&hm=e3d9b6ed9b77b0e5dceecb0f&",
+  "footer": "Fire Account | Generator",
+  "genChannel": "1187054641922445453",
+  "premiumChannel": "1187054638386642965",
+  "genCooldown": "18000",
+  "premiumCooldown": "2100",
+  "color": {
+    "green": "0x57F287",
+    "yellow": "0xFEE75C",
+    "red": "0xED4245",
+    "default": "0x5865F2"
+  },
+  "command": {
+    "notfound_message": true,
+    "error_message": true
+  }
+}
